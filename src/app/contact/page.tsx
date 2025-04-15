@@ -49,7 +49,7 @@ export default function Page() {
     setSubmitStatus('loading');
     setIsLoading(true);
     const { email, name, message } = formData;
-    const recipientEmail = "ubiriagiorgi8@gmail.com";
+    const recipientEmail = "emugeorgia@gmail.com"; // ელფოსტა
 
     try {
       const response = await fetch('/api/send-email', {
