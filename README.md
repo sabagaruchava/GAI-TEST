@@ -1,6 +1,6 @@
-# Giant Auto Import
+# GAI
 
-Giant Auto Import is a web application for an auto importing company, providing services to help customers purchase and import vehicles.
+GAI is a web application for an auto importing company, providing services to help customers purchase and import vehicles.
 
 ## Features
 
@@ -36,12 +36,12 @@ Giant Auto Import is a web application for an auto importing company, providing 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/giant-auto-import.git
+   git clone https://github.com/your-username/GAI.git
    ```
 
 2. Install dependencies:
    ```
-   cd giant-auto-import
+   cd GAI
    npm install
    ```
 
@@ -94,4 +94,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries, please contact us at info@giantautoimport.com.
+For any inquiries, please contact us at info@gai.com.
