@@ -1,3 +1,7 @@
+# Giant Auto Import
+
+Giant Auto Import is a web application for an auto importing company, providing services to help customers purchase and import vehicles.
+
 ## Features
 
 - User authentication and role-based authorization
@@ -28,6 +32,35 @@
 - Node.js 16.0.0 or later
 - npm or yarn
 
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/giant-auto-import.git
+   ```
+
+2. Install dependencies:
+   ```
+   cd giant-auto-import
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory and add the following variables:
+   ```
+   NEXT_PUBLIC_BUCKET_URL=your_s3_bucket_url
+   DATABASE_URL=your_database_url
+   AWS_ACCESS_KEY_ID=your_aws_access_key
+   AWS_SECRET_ACCESS_KEY=your_aws_secret_key
+   ```
+
+4. Run the development server:
+   ```
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
 ## Project Structure
 
 - `src/app`: Next.js app router and page components
@@ -54,3 +87,11 @@ This project is set up for deployment on Vercel. Connect your GitHub repository 
 3. Make your changes and commit them: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin feature-name`
 5. Submit a pull request
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For any inquiries, please contact us at info@giantautoimport.com.
